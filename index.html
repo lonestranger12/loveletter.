@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <p class="click-text">Click the heart!</p>
+        <div class="heart" onclick="showLetter()">
+            ❤️
+        </div>
+    </div>
+
+    <div class="letter-container" id="letter">
+        <div class="letter">
+            <h1>Dear Denisa ameilyaaa,</h1>
+            <p>
+                haii the prettiest girl i've ever seen, yang selalu ada dipikiran ku every time,  
+                ga cape apa muter muter mulu dipikiran ku, makasih udh nemenin gua tiap hari,  
+                yaa ga tiap hari juga sii, kadang 2 hari sekali kadang 1 minggu sekali,  
+                but you will remain in my heart forever, <b>FOREVER.</b>
+            </p>
+            <p>
+                you're the reason my days feel brighter, every little moment with you means  
+                more than i can put into words, <b>i love you so much...</b>  
+                I hope you will love me back, I hope one day it will happen.
+            </p>
+            <p>
+                aku bikin ini sendiri tau, ya meskipun liat tutorial sii hehe,  
+                but why? why did i make this for u? <b>cuz you're special to me.</b>
+            </p>
+            <p class="signature">With Love, <br> Your Admirer</p>
+        </div>
+    </div>
+
+    <script>
+        function showLetter() {
+            document.querySelector('.container').style.display = 'none';
+            document.getElementById('letter').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
